@@ -31,7 +31,7 @@ router.post('/', (req, res) => {
             id: Date.now().toString(),
             name: req.body.name,
             address: req.body.address
-        })
+        });
         res.status(201).json(items.at(-1));
     } else {
         const err = 'Error 400: Data payload is invalid. It must be in JSON format and contain the fields "name" and "address".';
@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
         } }
         if(req.body.name) req.item.name = req.body.name;
         if(req.body.address) req.item.address = req.body.address;
-        msg.after = req.item
+        msg.after = req.item;
         res.status(200).json(msg);
     } else {
         const err = 'Error 400: Data payload is invalid. It must be in JSON format and contain at least one of the fields "name" or "address".';
