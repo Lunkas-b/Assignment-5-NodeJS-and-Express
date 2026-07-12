@@ -20,7 +20,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
     "address": "1234 Real St."
 }
 ```
-  Response data:
+  Response data - Status Code 201:
 
 ```js
 {
@@ -40,7 +40,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
     "address": "4321 Fake Av."
 }
 ```
-  Response data:
+  Response data - Status Code 201:
 
 ```js
 {
@@ -51,7 +51,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
 ```
 
 ### 3. GET localhost:3000/api/resources
-  Response data:
+  Response data - Status Code 200:
 
 ```js
 [
@@ -69,7 +69,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
 ```
 
 ### 4. GET localhost:3000/api/resources/1783816109020
-  Response data:
+  Response data - Status Code 200:
 
 ```js
 {
@@ -88,7 +88,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
 }
 ```
 
-  Response data:
+  Response data - Status Code 200:
 
 ```js
 {
@@ -106,7 +106,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
 ```
 
 ### 6. GET localhost:3000/api/resources
-  Response data:
+  Response data - Status Code 200:
 
 ```js
 [
@@ -124,7 +124,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
 ```
 
 ### 7. DELETE localhost:3000/api/resources/1783816109020
-  Response data:
+  Response data - Status Code 200:
 
 ```js
 {
@@ -133,7 +133,7 @@ In order to test that the mock DB/API was working properly, I used postman autom
 ```
 
 ### 8. GET localhost:3000/api/resources
-  Response data:
+  Response data - Status Code 200:
 
 ```js
 [
