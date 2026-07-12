@@ -145,4 +145,6 @@ In order to test that the mock DB/API was working properly, I used postman autom
 ]
 ```
 
+### Screen Capture of Postman Test Results
+![Screenshot of test results](PostmanTestSS.PNG)
 
