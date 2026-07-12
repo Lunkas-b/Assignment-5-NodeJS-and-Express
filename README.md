@@ -9,7 +9,7 @@ These methods include:
 - DELETE /api/resources/{id} - Deletes the specified item in the mock DB
 
 # Postman Testing Steps
-In order to test that the mock DB/API was working properly, I used postman automated testing, having it run a collection of 8 different http requests in the following order
+In order to test that the mock DB/API was working properly, I used PostMan's automated testing feature, having it run a collection of 8 different http requests in the following order:
 ### 1. POST localhost:3000/api/resources
 
   Request data:
